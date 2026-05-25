@@ -2,7 +2,7 @@
 
 * {
     all: unset;
-    font-family: "Iosevka Nerd Font Proppo",monospace;
+    font-family: "Iosevka Nerd Font Proppo", monospace;
 }
 
 window#waybar {
@@ -53,4 +53,10 @@ window#waybar {
     margin: 0 12px;
     font-size: 0.7rem;
     letter-spacing: 1px;
+}
+
+#battery,
+#pulseaudio {
+    font-family: "Iosevka Nerd Font Proppo", monospace;
+    font-size: 1.12rem;
 }
